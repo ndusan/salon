@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule !^(\.git|\.jpg|\.jpeg|\.css|\.js|\.htm|\.html|^public/.*)$ index.php [nocase,last]

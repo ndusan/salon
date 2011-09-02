@@ -8,3 +8,11 @@ HOME
                 <input type="submit" value="Send" />
     </p>
 </form>
+
+<div id="fb-root"></div>
+<script src="http://connect.facebook.net/en_US/all.js#appId=109028209203479&amp;xfbml=1"></script>
+<fb:like href="http://salonlepote.co.rs" send="false" layout="box_count" width="30" show_faces="false" font="arial"></fb:like>
+
+
+<div id="fb-root"></div>
+<script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:send href="http://salonlepote.co.rs" font="arial"></fb:send>

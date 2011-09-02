@@ -3,6 +3,7 @@ $(document).ready(function(){
     
     //Form validation
     $('form').submit(function(e){
+        e.preventDefault();
         
         var allOk = true;
         $('.required').each(function(){
@@ -15,5 +16,14 @@ $(document).ready(function(){
         });
         
         if(!allOk) return false; 
+        
+        $.ajax({
+           type: "POST",
+           url:  $('form').attr('action'),
+           data: $('form').serialize(),
+           success: function(msg){
+             alert( "Data Saved: " + msg );
+           }
+        });
     });
 });

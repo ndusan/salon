@@ -6,7 +6,7 @@ $url = substr_replace($url, '', 0, 1);
 //Remove $_GET data
 $url = str_replace('?'.$_SERVER['QUERY_STRING'], '', $url);
 
-require_once 'routes.php';
+require_once 'config/routes.php';
 
 $params = array();
 

@@ -34,8 +34,8 @@ label {padding:2px 0; display:block;}
 
 /*BUILD*/
 .main {width:960px; overflow:hidden; padding:0 0 50px;}
-.sidebar {float:left; width:240px; padding:170px 0 0; background:transparent url(../images/sidebar_bg.png) scroll no-repeat 0 0;}
-.content {float:right; width:640px; padding:170px 0 0;}
+.sidebar {float:left; width:200px; padding:170px 0 0; background:transparent url(../images/sidebar_bg.png) scroll no-repeat 0 0;}
+.content {float:right; width:720px; padding:170px 0 0;}
 .logo {float:right; margin:0 0 50px;}
 .mainNav {overflow:hidden; float:right; clear:both;}
 .mainNav li {padding:10px 0; text-align:right;}

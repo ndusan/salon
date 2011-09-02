@@ -20,6 +20,8 @@ foreach($routes as $route){
 
 if(!empty($params)){
     //Load layout and content inside it
+    session_start();
+    require_once 'request.php';
     require_once 'translate.php';
     require_once 'layout/'.$params['layout'];
 }else{

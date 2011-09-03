@@ -3,6 +3,15 @@
 </div>
 <div class="landing">
     <h1>Welcome to Lan Team</h1>
+    <span class="fbLike">
+        <!-- Like button -->
+        <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
+        <fb:like href="http://salonlepote.co.rs" send="false" layout="button_count" show-faces="false" width="20" font="arial" colorscheme="light" />
+
+
+        <!-- Send to friend button -->
+        <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:send href="http://salonlepote.co.rs" font="arial"></fb:send>
+    </span>
     <h2>BEAUTY SALON</h2>
     <p>
         Kako ćete prepoznati Alexandria proizvode ( tretman ) i Alexandria stručnjaka?
@@ -20,14 +29,14 @@
 </div>
 <div class="home">
     <div class="homeNews">
-        <? include_once 'public/news.php'; ?>
+        <?php include_once 'public/news.php'; ?>
         <?php if (!empty($_news)): ?>
             <!-- News -->
             <ul id="news" class="news">
                 <?php foreach ($_news as $n): ?>
                     <li>
-                        <h3><?php echo $n['naslov']; ?></h3>
                         <span><?php echo $n['datum']; ?></span>
+                        <h3><?php echo $n['naslov']; ?></h3>
                         <p><?php echo $n['tekst']; ?></p>
                     </li>
                 <?php endforeach; ?>
@@ -41,11 +50,5 @@
 
 
 
-<!-- Like button -->
-<script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
-<fb:like href="http://salonlepote.co.rs" send="false" layout="button_count" show-faces="false" width="20" font="arial" colorscheme="light" />
 
-
-<!-- Send to friend button -->
-<script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:send href="http://salonlepote.co.rs" font="arial"></fb:send>
 

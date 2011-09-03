@@ -61,6 +61,8 @@ input[type=submit]:hover {color:#f0397b; border-color:#C6C6C6; cursor:pointer;}
 .bottom ul {padding:20px 0 0;}
 .bottom ul li {padding:0 0 5px;}
 .landing {padding:30px 0;}
+.landing h1 {display:inline;}
+.landing .fbLike {position:relative; left:20px;}
 .home {overflow:hidden;}
 .homeNews {float:left; width:350px;}
 .homeSocial {float:right; width:350px;}
@@ -74,6 +76,8 @@ input[type=submit]:hover {color:#f0397b; border-color:#C6C6C6; cursor:pointer;}
 .products .moreInfo {padding:10px 15px; position:relative;}
 .products .toggle-form {padding:5px 5px 5px 15px;}
 
+.news {overflow:hidden;}
+.news span {color:#999; padding:5px 0; font-size:11px; text-transform:uppercase;}
 .message {font-size:14px; color:#FFF; padding:30px 0; position:absolute; right:100px; width:250px; top:30px; text-align:center;}
 .success {background-color:green;}
 .error {background-color:red;}

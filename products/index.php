@@ -1,21 +1,16 @@
 <?php $token = $_SESSION['token'] = md5(uniqid(rand(), TRUE)); ?>
-
-<h1>Alexandria proffesional</h1>
-<h2>www.alexandriaprofessional.com</h2>
-
-<!--Products -->
-<div>
-    <h2>Podmladite vašu kožu!</h2>
+<div class="intro introProducts ">
+     <h2>Podmladite vašu kožu!</h2>
     <p>Alexandria je razvila jednostavan a vrlo efektivan način kućne nege za dobrobit svih tipova kože i uslova - sistem od 3 sinergetična proizvoda nazvan Hide and Seek™.</p>
 </div>
 <ul class="products">
     <li class="noTop">
-        <h2>
-            <span class="fr">
-            <!--Like-->
-            <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
-            <fb:like href="http://salonlepote.co.rs/proizvodi#SALTSPRING" send="false" layout="button_count" show-faces="false" width="20" font="arial" colorscheme="light" />
-        </span>SALTSPRING™</h2>
+        <h2>SALTSPRING™</h2>
+        <span class="fbLike">
+                <!--Like-->
+                <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
+                <fb:like href="http://salonlepote.co.rs/proizvodi#SALTSPRING" send="false" layout="button_count" show-faces="false" width="20" font="arial" colorscheme="light" />
+            </span>
         <p>Tradicionalno blaga, smirujuća i detoksična so Mrtvog mora vrši piling i omekšava kožu. Kombinovana sa slatkim bademovim uljem čini izuzetno sredstvo za piling mrtvih ćelija kože.</p>
         <h3>
             <a href="#" class="toggle-form" rel="SALTSPRING">Pitajte i saznajte više</a>
@@ -36,12 +31,12 @@
         </div>
     </li>
     <li>
-        <h2>MUD PUDDLE™
-        <span class="fr">
-            <!--Like-->
-            <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
-            <fb:like href="http://salonlepote.co.rs/proizvodi#MUD-PUDDLE" send="false" layout="button_count" show-faces="false" width="20" font="arial" colorscheme="light" />
-        </span></h2>
+        <h2>MUD PUDDLE™</h2>
+            <span class="fbLike">
+                <!--Like-->
+                <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
+                <fb:like href="http://salonlepote.co.rs/proizvodi#MUD-PUDDLE" send="false" layout="button_count" show-faces="false" width="20" font="arial" colorscheme="light" />
+            </span>
         <p>Mađarsko blato detoksikuje i revitalizuje kožu i odlično je za sve tipove kože i uslova, počev od tretmana akni do celulita. Ovo blato visokog kvaliteta sa širokom primenom kupuje se suvo i mesajući sa vodom prelazi u bogatu, glatku kremastu pastu.</p>
         <h3>
             <a href="#" class="toggle-form" rel="MUD-PUDDLE">Pitajte i saznajte više</a>
@@ -62,12 +57,12 @@
         </div>
     </li>
     <li>
-        <h2>
-            <span class="fr">
-            <!--Like-->
-            <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
-            <fb:like href="http://salonlepote.co.rs/proizvodi#DERMAWEAR" send="false" layout="button_count" show-faces="false" width="20" font="arial" colorscheme="light" />
-        </span>DERMAWEAR™</h2>
+        <h2>DERMAWEAR™</h2>
+            <span class="fbLike">
+                <!--Like-->
+                <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
+                <fb:like href="http://salonlepote.co.rs/proizvodi#DERMAWEAR" send="false" layout="button_count" show-faces="false" width="20" font="arial" colorscheme="light" />
+            </span>
         <p>Naša linija tonera i losiona koji deluju u duetu formulisani su i za lice i za telo, i rade u tandemu kako bi hranili kožu, umirili i negovali. Sa najčistijim, prirodnim sastojcima i esencijalnim uljima, ovaj dnevni okrepljujući tretman može se koristiti ujutru i uveče za preplanulu, hidriranu i sjajnu kožu.</p>
         <h3>
             <a href="#" class="toggle-form" rel="DERMAWEAR">Pitajte i saznajte više</a>
@@ -88,12 +83,12 @@
         </div>
     </li>
     <li class="noBot">
-        <h2>
-            <span class="fr">
-            <!--Like-->
-            <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
-            <fb:like href="http://salonlepote.co.rs/proizvodi#PHENOMEN-ALL" send="false" layout="button_count" show-faces="false" width="20" font="arial" colorscheme="light" />
-        </span>PHENOMEN-ALL™</h2>
+        <h2>PHENOMEN-ALL™</h2>
+            <span class="fbLike">
+                <!--Like-->
+                <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
+                <fb:like href="http://salonlepote.co.rs/proizvodi#PHENOMEN-ALL" send="false" layout="button_count" show-faces="false" width="20" font="arial" colorscheme="light" />
+            </span>
         <p>Krema za sve - urasle dlake, problematičnu kožu, zadebljanja i žuljeve, grubu kožu na laktovima i kolenima. Ova jedinstvena kombinacija sjajnih, kvalitetnih esencijalnih ulja omekšava gornje i srednje slojeve kože omogucavajući brzo uklanjanje mrtvih ćelija. Ovo je izuzetno važno u tretiranju uraslih dlaka. Urasla dlaka se pojavljuje ukoliko nova dlaka nije dovoljno jaka da se probije kroz sloj mrtvih ćelija kože iznad folikula. Phenomen-ALL™ održava vašu kožu mekanom i pomaže u sprečavanju urastanja dlaka. Vaša koža će izgledati sveže i podmlađeno.</p>
         <h3>
             <a href="#" class="toggle-form" rel="PHENOMEN-ALL">Pitajte i saznajte više</a>
@@ -114,3 +109,7 @@
         </div>
     </li>
 </ul>
+<div class="outro outroProducts "
+     <h1>Alexandria proffesional</h1>
+    <h2>www.alexandriaprofessional.com</h2>
+</div>

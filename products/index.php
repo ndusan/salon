@@ -5,14 +5,17 @@
 </div>
 <ul class="products">
     <li class="noTop">
-        <h2>SALTSPRING™</h2>
-        <span class="fbLike">
-            <!--Like-->
-            <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
-            <fb:like href="http://salonlepote.co.rs/proizvodi#SALTSPRING" send="false" layout="button_count" show-faces="false" width="20" font="arial" colorscheme="light" />
-        </span>
-        <p>Tradicionalno blaga, smirujuća i detoksična so Mrtvog mora vrši piling i omekšava kožu. Kombinovana sa slatkim bademovim uljem čini izuzetno sredstvo za piling mrtvih ćelija kože.</p>
+        <img alt="Saltspring" width="200" height="200" src="../public/images/salt.jpg" />
+        <div class="desc">
+            <h2>SALTSPRING™</h2>
+            <span class="fbLike">
+                <!--Like-->
+                <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
+                <fb:like href="http://salonlepote.co.rs/proizvodi#SALTSPRING" send="false" layout="button_count" show-faces="false" width="20" font="arial" colorscheme="light" />
+            </span>
+            <p>Tradicionalno blaga, smirujuća i detoksična so Mrtvog mora vrši piling i omekšava kožu. Kombinovana sa slatkim bademovim uljem čini izuzetno sredstvo za piling mrtvih ćelija kože.</p>
             <a href="#" class="toggle-form" rel="SALTSPRING">Pitajte i saznajte više</a>
+        </div>
         <div class="moreInfo" id="SALTSPRING"  style="display: none;" title="hide">
             <form action="/proizvodi" medtod="post" id="form-SALTSPRING">
                 <label for="name">Vaše ime:</label>
@@ -25,7 +28,7 @@
                 <input type="hidden" name="token" value="<?php echo $token ?>" />
                 <input type="submit" value="Pošalji pitanje" name="submit"/><a href="#" class="toggle-form" rel="SALTSPRING">Zatvorite formu za pitajte</a>
             </form>
-            
+
         </div>
     </li>
     <li>
@@ -36,7 +39,7 @@
             <fb:like href="http://salonlepote.co.rs/proizvodi#MUD-PUDDLE" send="false" layout="button_count" show-faces="false" width="20" font="arial" colorscheme="light" />
         </span>
         <p>Mađarsko blato detoksikuje i revitalizuje kožu i odlično je za sve tipove kože i uslova, počev od tretmana akni do celulita. Ovo blato visokog kvaliteta sa širokom primenom kupuje se suvo i mesajući sa vodom prelazi u bogatu, glatku kremastu pastu.</p>
-            <a href="#" class="toggle-form" rel="MUD-PUDDLE">Pitajte i saznajte više</a>
+        <a href="#" class="toggle-form" rel="MUD-PUDDLE">Pitajte i saznajte više</a>
         <div class="moreInfo" id="MUD-PUDDLE" style="display: none;" title="hide">
             <form action="/proizvodi" medtod="post" id="form-MUD-PUDDLE">
                 <label for="name">Vaše ime:</label>
@@ -49,7 +52,7 @@
                 <input type="hidden" name="token" value="<?php echo $token ?>" />
                 <input type="submit" value="Pošalji pitanje" name="submit"/><a href="#" class="toggle-form" rel="MUD-PUDDLE">Zatvorite formu za pitajte</a>
             </form>
-            
+
         </div>
     </li>
     <li>
@@ -60,7 +63,7 @@
             <fb:like href="http://salonlepote.co.rs/proizvodi#DERMAWEAR" send="false" layout="button_count" show-faces="false" width="20" font="arial" colorscheme="light" />
         </span>
         <p>Naša linija tonera i losiona koji deluju u duetu formulisani su i za lice i za telo, i rade u tandemu kako bi hranili kožu, umirili i negovali. Sa najčistijim, prirodnim sastojcima i esencijalnim uljima, ovaj dnevni okrepljujući tretman može se koristiti ujutru i uveče za preplanulu, hidriranu i sjajnu kožu.</p>
-            <a href="#" class="toggle-form" rel="DERMAWEAR">Pitajte i saznajte više</a>
+        <a href="#" class="toggle-form" rel="DERMAWEAR">Pitajte i saznajte više</a>
         <div class="moreInfo" id="DERMAWEAR" style="display: none;" title="hide">
             <form action="/proizvodi" medtod="post" id="form-DERMAWEAR">
                 <label for="name">Vaše ime:</label>
@@ -73,7 +76,7 @@
                 <input type="hidden" name="token" value="<?php echo $token ?>" />
                 <input type="submit" value="Pošalji pitanje" name="submit"/><a href="#" class="toggle-form" rel="DERMAWEAR">Zatvorite formu za pitajte</a>
             </form>
-            
+
         </div>
     </li>
     <li class="noBot">
@@ -99,7 +102,7 @@
                 <input type="hidden" name="token" value="<?php echo $token ?>" />
                 <input type="submit" value="Pošalji pitanje" name="submit"/><a href="#" class="toggle-form" rel="PHENOMEN-ALL">Zatvorite formu za pitajte</a>
             </form>
-            
+
         </div>
     </li>
 </ul>

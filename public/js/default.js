@@ -74,4 +74,7 @@ $(document).ready(function(){
         speed: 1000,
         pause: 8000
     });
+    
+    
+    
 });

@@ -1,5 +1,5 @@
 <ul class="products">
-    <li class="noTop">
+    <li class="noTop noBot">
         <h2>Salon lepote Lan Team</h2>
         <p>Kontakt osoba:</p>
         <p>Zorka Jonić</p>

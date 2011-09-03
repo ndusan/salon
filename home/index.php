@@ -1,24 +1,4 @@
-<div class="banner" id="slides">
-  <div class="slides_container">
-    <div>
-      <img alt="SALTSPRING" width="720" height="250" src="../public/images/slide1.jpg" />
-    </div>
-    <div>
-      <img alt="SALTSPRING" width="720" height="250" src="../public/images/slide2.jpg" />
-    </div>
-    <div>
-      <img alt="SALTSPRING" width="720" height="250" src="../public/images/slide1.jpg" />
-    </div>
-  </div>
-</div>
-<script>
-  $(function(){
-    $("#slides").slides({
-        generatePagination: true,
-        play: 4000
-    });
-  });
-</script>
+
 <div class="landing">
     <h1>Welcome to Lan Team</h1>
     <span class="fbLike">

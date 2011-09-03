@@ -82,10 +82,10 @@ input[type=submit]:hover {color:#f0397b; border-color:#C6C6C6; cursor:pointer;}
 .success {background-color:green;}
 .error {background-color:red;}
 
-.slides_container { width:720px; height:250px;}
-.slides_container div {width:720px; height:250px; display:block;}
+.slides_container {height:250px; width:100%;}
+.slides_container div {height:250px; width:100%; display:block;}
 
-.pagination {width:45px; margin:10px auto 0;}
+.pagination {width:70px; margin:10px auto 0;}
 .pagination li {float:left; margin:0 1px;}
 .pagination li a {background-image: url("../images/pagination.png"); background-position: 0 0; display: block; float:left; height:0; overflow:hidden; padding-top:12px; width:12px;}
 .pagination li.current a {background-position:0 -12px;}

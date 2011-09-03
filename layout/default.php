@@ -1,9 +1,14 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html lang="en-US" xml:lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
     <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="description" content="Salon lepote u ulici Jelisavete Načić (bivša Pavla Papa) broj 1, Beograd. Epilacija šećernom penom, nešto sasvim novo kod nas. Alexandria Professional.">
+        <meta name="keywords" content="salon lepote, epilacija, šećerna pena, Beograd, Jelisavete Načić (bivša Pavla Papa) broj 1, Lan Team, pedikir, manikir">
+
         <link href="/public/css/default.css" rel="stylesheet" type="text/css" />
         <link href="/public/css/default.css" rel="stylesheet" type="text/css" />
         <script type="text/javascript" src="/public/js/jquery-1.6.2.min.js"></script> 
+        <script type="text/javascript" src="/public/js/jquery.bxSlider.min.js"></script> 
         <script type="text/javascript" src="/public/js/default.js"></script>
     </head>
     <body>

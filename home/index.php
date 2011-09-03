@@ -1,13 +1,13 @@
 <div class="banner" id="slides">
   <div class="slides_container">
     <div>
-      <img alt="SALTSPRING" width="720" height="300" src="../public/images/slide1.jpg" />
+      <img alt="SALTSPRING" width="720" height="250" src="../public/images/slide1.jpg" />
     </div>
     <div>
-      <img alt="SALTSPRING" width="720" height="300" src="../public/images/slide2.jpg" />
+      <img alt="SALTSPRING" width="720" height="250" src="../public/images/slide2.jpg" />
     </div>
     <div>
-      <img alt="SALTSPRING" width="720" height="300" src="../public/images/slide1.jpg" />
+      <img alt="SALTSPRING" width="720" height="250" src="../public/images/slide1.jpg" />
     </div>
   </div>
 </div>

@@ -6,9 +6,11 @@
             <meta name="keywords" content="salon lepote, epilacija, šećerna pena, Beograd, Jelisavete Načić (bivša Pavla Papa) broj 1, Lan Team, pedikir, manikir">
                 <title>Salon lepote - Lan Team<?php echo $params['folder'] ? ' | ' . $_t[$route['folder'] . '.link'] : ''; ?></title>
                 <link href="/public/css/default.css" rel="stylesheet" type="text/css" />
+                <link href="/public/css/jquery.lightbox-0.5.css" rel="stylesheet" type="text/css" />
                 <script type="text/javascript" src="/public/js/jquery-1.6.2.min.js"></script> 
                 <script type="text/javascript" src="/public/js/jquery.bxSlider.min.js"></script> 
-                <script type="text/javascript" src="/public/js/slides.min.jquery.js"></script> 
+                <script type="text/javascript" src="/public/js/slides.min.jquery.js"></script>
+                <script type="text/javascript" src="/public/js/jquery.lightbox-0.5.min.js"></script>
                 <script type="text/javascript" src="/public/js/default.js"></script>
                 <script type="text/javascript">
 
@@ -61,11 +63,11 @@
                                         </ul>
                                     <?php elseif ($route['folder'] == 'service'): ?>
                                         <ul>
-                                            <li><a href="<?php echo $route['url']; ?>#EPILACIJA-TELA-USLUGA">epilacija tela</a></li>
-                                            <li><a href="<?php echo $route['url']; ?>#ŠEĆERNI-PROIZVOD-USLUGA">šećerni proizvod</a></li>
+                                            <li><a href="<?php echo $route['url']; ?>#EPILACIJA-TELA-USLUGA">Epilacija tela</a></li>
+                                            <li><a href="<?php echo $route['url']; ?>#ŠEĆERNI-PROIZVOD-USLUGA">Šećerni proizvod</a></li>
                                             <li><a href="<?php echo $route['url']; ?>#ALEXANDRIA-STRUČNJACI-USLUGA">ALEXANDRIA stručnjaci</a></li>
-                                            <li><a href="<?php echo $route['url']; ?>#TRETMANI-USLUGA">tretmani</a></li>
-                                            <li><a href="<?php echo $route['url']; ?>#PRIPREMA-ZA-TRETMAN-USLUGA">priprema za tretman</a></li>
+                                            <li><a href="<?php echo $route['url']; ?>#TRETMANI-USLUGA">Tretmani</a></li>
+                                            <li><a href="<?php echo $route['url']; ?>#PRIPREMA-ZA-TRETMAN-USLUGA">Priprema za tretman</a></li>
                                         </ul>
                                     <?php endif; ?>
                                 </li>

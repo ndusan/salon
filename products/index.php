@@ -23,9 +23,9 @@
                 <textarea id="question" name="question"></textarea><br/>
                 <input type="hidden" name="subject" value="Forma [Objasnite mi više o SALTSPRING]" />
                 <input type="hidden" name="token" value="<?php echo $token ?>" />
-                <input type="submit" value="Pošalji pitanje" name="submit"/>
+                <input type="submit" value="Pošalji pitanje" name="submit"/><a href="#" class="toggle-form" rel="SALTSPRING">Zatvorite formu za pitajte</a>
             </form>
-            <a href="#" class="toggle-form" rel="SALTSPRING">Zatvorite formu za pitajte</a>
+            
         </div>
     </li>
     <li>
@@ -47,9 +47,9 @@
                 <textarea id="question" name="question"></textarea><br/>
                 <input type="hidden" name="subject" value="Forma [Objasnite mi više o MUD PUDDLE]" />
                 <input type="hidden" name="token" value="<?php echo $token ?>" />
-                <input type="submit" value="Pošalji pitanje" name="submit"/>
+                <input type="submit" value="Pošalji pitanje" name="submit"/><a href="#" class="toggle-form" rel="MUD-PUDDLE">Zatvorite formu za pitajte</a>
             </form>
-            <a href="#" class="toggle-form" rel="MUD-PUDDLE">Zatvorite formu za pitajte</a>
+            
         </div>
     </li>
     <li>
@@ -71,9 +71,9 @@
                 <textarea id="question" name="question"></textarea><br/>
                 <input type="hidden" name="subject" value="Forma [Objasnite mi više o DERMAWEAR]" />
                 <input type="hidden" name="token" value="<?php echo $token ?>" />
-                <input type="submit" value="Pošalji pitanje" name="submit"/>
+                <input type="submit" value="Pošalji pitanje" name="submit"/><a href="#" class="toggle-form" rel="DERMAWEAR">Zatvorite formu za pitajte</a>
             </form>
-            <a href="#" class="toggle-form" rel="DERMAWEAR">Zatvorite formu za pitajte</a>
+            
         </div>
     </li>
     <li class="noBot">
@@ -97,9 +97,9 @@
                 <textarea id="question" name="question"></textarea><br/>
                 <input type="hidden" name="subject" value="Forma [Objasnite mi više o PHENOMEN-ALL]" />
                 <input type="hidden" name="token" value="<?php echo $token ?>" />
-                <input type="submit" value="Pošalji pitanje" name="submit"/>
+                <input type="submit" value="Pošalji pitanje" name="submit"/><a href="#" class="toggle-form" rel="PHENOMEN-ALL">Zatvorite formu za pitajte</a>
             </form>
-            <a href="#" class="toggle-form" rel="PHENOMEN-ALL">Zatvorite formu za pitajte</a>
+            
         </div>
     </li>
 </ul>

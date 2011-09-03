@@ -7,7 +7,7 @@
     <li class="noTop">
         <img alt="SALTSPRING" width="200" height="200" src="../public/images/salt.jpg" />
         <div class="desc">
-            <h2>SALTSPRING™</h2>
+            <h2>SALTSPRING™<a name="SALTSPRING-PRODUCT"></a></h2>
             <span class="fbLike">
                 <!--Like-->
                 <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
@@ -34,7 +34,7 @@
     <li>
         <img alt="MUD PUDDLE" width="200" height="200" src="../public/images/mud.jpg" />
         <div class="desc">
-            <h2>MUD PUDDLE™</h2>
+            <h2>MUD PUDDLE™<a name="MUD-PUDDLE-PRODUCT"></a></h2>
             <span class="fbLike">
                 <!--Like-->
                 <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
@@ -61,7 +61,7 @@
     <li>
         <img alt="DERMAWEAR" width="200" height="200" src="../public/images/dermawear.jpg" />
         <div class="desc">
-            <h2>DERMAWEAR™</h2>
+            <h2>DERMAWEAR™<a name="DERMAWEAR-PRODUCT"></a></h2>
             <span class="fbLike">
                 <!--Like-->
                 <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
@@ -88,7 +88,7 @@
     <li class="noBot">
         <img alt="PHENOMEN-ALL" width="200" height="200" src="../public/images/phenomen-all.jpg" />
         <div class="desc">
-            <h2>PHENOMEN-ALL™</h2>
+            <h2>PHENOMEN-ALL™<a name="PHENOMEN-ALL-PRODUCT"></a></h2>
             <span class="fbLike">
                 <!--Like-->
                 <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>

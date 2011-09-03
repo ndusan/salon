@@ -41,26 +41,27 @@
                             </div>
                         </div>
                         <ul class="bottom">
-                            <li><a href="#">Početna</a></li>
-                            <li><a href="#">proizvodi</a>
+                            <?php foreach ($routes as $route): ?>
+                            <li>
+                                <a href="<?php echo $route['url']; ?>"><?php echo $_t[$route['folder'] . '.link']; ?></a>
+                                <?php if($route['folder'] == 'products'):?>
                                 <ul>
-                                    <li><a href="#">SALTSPRING&trade;</a></li>
-                                    <li><a href="#">SALTSPRING&trade;</a></li>
-                                    <li><a href="#">SALTSPRING&trade;</a></li>
-                                    <li><a href="#">SALTSPRING&trade;</a></li>
+                                    <li><a href="<?php echo $route['url']; ?>#SALTSPRING-PRODUCT">SALTSPRING™</a></li>
+                                    <li><a href="<?php echo $route['url']; ?>#MUD-PUDDLE-PRODUCT">MUD PUDDLE™</a></li>
+                                    <li><a href="<?php echo $route['url']; ?>#DERMAWEAR-PRODUCT">DERMAWEAR™</a></li>
+                                    <li><a href="<?php echo $route['url']; ?>#PHENOMEN-ALL-PRODUCT">PHENOMEN-ALL™</a></li>
                                 </ul>
-                            </li>
-                            <li><a href="#">usluge</a>
+                                <?php elseif($route['folder'] == 'service'):?>
                                 <ul>
-                                    <li><a href="#">SALTSPRING&trade;</a></li>
-                                    <li><a href="#">SALTSPRING&trade;</a></li>
-                                    <li><a href="#">SALTSPRING&trade;</a></li>
-                                    <li><a href="#">SALTSPRING&trade;</a></li>
-                                    <li><a href="#">SALTSPRING&trade;</a></li>
+                                    <li><a href="<?php echo $route['url']; ?>#EPILACIJA-TELA">epilacija tela</a></li>
+                                    <li><a href="<?php echo $route['url']; ?>#ŠEĆERNI-PROIZVOD">šećerni proizvod</a></li>
+                                    <li><a href="<?php echo $route['url']; ?>#ALEXANDRIA-STRUČNJACI">ALEXANDRIA stručnjaci</a></li>
+                                    <li><a href="<?php echo $route['url']; ?>#TRETMANI">tretmani</a></li>
+                                    <li><a href="<?php echo $route['url']; ?>#PRIPREMA-ZA-TRETMAN">priprema za tretman</a></li>
                                 </ul>
+                                <?php endif; ?>
                             </li>
-                            <li><a href="#">o nama</a></li>
-                            <li><a href="#">kontakt</a></li>
+                            <?php endforeach; ?>
                         </ul>
                         <div class="footer">
                             <span class="fr">

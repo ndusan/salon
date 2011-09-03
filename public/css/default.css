@@ -76,7 +76,7 @@ input[type=submit]:hover {color:#f0397b; border-color:#C6C6C6; cursor:pointer;}
 .homeSocial {float:right; width:350px;}
 
 .products h2 {display:inline;}
-.products li {padding:20px 0; border-bottom:solid 1px #DDD; border-top:solid 1px #FFF; position:relative; overflow:hidden;}
+.products > li {padding:20px 0; border-bottom:solid 1px #DDD; border-top:solid 1px #FFF; position:relative; overflow:hidden;}
 .products p {padding:10px 0;}
 .products img {float:right; border:solid 1px #DDD;}
 .products .desc {margin:0 230px 0 0;}
@@ -97,3 +97,7 @@ input[type=submit]:hover {color:#f0397b; border-color:#C6C6C6; cursor:pointer;}
 .pagination li {float:left; margin:0 1px;}
 .pagination li a {background-image: url("../images/pagination.png"); background-position: 0 0; display: block; float:left; height:0; overflow:hidden; padding-top:12px; width:12px;}
 .pagination li.current a {background-position:0 -12px;}
+
+.gallery {overflow:hidden;}
+.gallery li {float:left; margin:28px 56px 28px 0;}
+.gallery .last {margin-right:0;}

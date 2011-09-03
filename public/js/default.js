@@ -35,11 +35,11 @@ $(document).ready(function(){
              }
              //Show message
              $('#'+formName).append('<div class="message '+resClass+'">'+data.msg+'</div>');
-             setTimeout(function () {
-                $('.message').fadeOut(function(){
-                    $(this).remove();
-                });
-             }, 1000);
+//             setTimeout(function () {
+//                $('.message').fadeOut(function(){
+//                    $(this).remove();
+//                });
+//             }, 1000);
            }
         });
     });

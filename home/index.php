@@ -14,9 +14,9 @@ HOME
 
 
 
-<!--Facepile of people who liked salonlepote.co.rs -->
+<!--Facepile of people who liked salonlepote.co.rs 
 <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
-<fb:facepile href="http://salonlepote.co.rs" size="large" width="200" max_rows="10"></fb:facepile>
+<fb:facepile href="http://salonlepote.co.rs" size="large" width="200" max_rows="10"></fb:facepile>-->
 
 
 

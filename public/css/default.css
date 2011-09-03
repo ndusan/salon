@@ -64,3 +64,7 @@ input[type=submit]:hover {color:#f0397b; border-color:#C6C6C6; cursor:pointer;}
 .products .moreInfo {padding:10px 15px; position:relative;}
 .products .toggle-form {padding:5px 5px 5px 15px;}
 
+.message {font-size:14px; color:#FFF; padding:30px 0; position:absolute; right:100px; width:250px; top:30px; text-align:center;}
+.success {background-color:green;}
+.error {background-color:red;}
+

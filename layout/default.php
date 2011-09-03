@@ -54,11 +54,11 @@
                                 </ul>
                                 <?php elseif($route['folder'] == 'service'):?>
                                 <ul>
-                                    <li><a href="<?php echo $route['url']; ?>#EPILACIJA-TELA">epilacija tela</a></li>
-                                    <li><a href="<?php echo $route['url']; ?>#ŠEĆERNI-PROIZVOD">šećerni proizvod</a></li>
-                                    <li><a href="<?php echo $route['url']; ?>#ALEXANDRIA-STRUČNJACI">ALEXANDRIA stručnjaci</a></li>
-                                    <li><a href="<?php echo $route['url']; ?>#TRETMANI">tretmani</a></li>
-                                    <li><a href="<?php echo $route['url']; ?>#PRIPREMA-ZA-TRETMAN">priprema za tretman</a></li>
+                                    <li><a href="<?php echo $route['url']; ?>#EPILACIJA-TELA-USLUGA">epilacija tela</a></li>
+                                    <li><a href="<?php echo $route['url']; ?>#ŠEĆERNI-PROIZVOD-USLUGA">šećerni proizvod</a></li>
+                                    <li><a href="<?php echo $route['url']; ?>#ALEXANDRIA-STRUČNJACI-USLUGA">ALEXANDRIA stručnjaci</a></li>
+                                    <li><a href="<?php echo $route['url']; ?>#TRETMANI-USLUGA">tretmani</a></li>
+                                    <li><a href="<?php echo $route['url']; ?>#PRIPREMA-ZA-TRETMAN-USLUGA">priprema za tretman</a></li>
                                 </ul>
                                 <?php endif; ?>
                             </li>

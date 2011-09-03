@@ -6,20 +6,20 @@
     <li class="noBot">
         
         <ul class="gallery">
-            <li><a href="../public/images/mud.jpg" rel="lightbox"><img alt="MUD PUDDLE" width="200" height="200" src="../public/images/mud.jpg" /></a></li>
-            <li><a href="../public/images/mud.jpg" rel="lightbox"><img alt="MUD PUDDLE" width="200" height="200" src="../public/images/mud.jpg" /></a></li>
-            <li class="last"><a href="../public/images/mud.jpg" rel="lightbox"><img alt="MUD PUDDLE" width="200" height="200" src="../public/images/mud.jpg" /></a></li>
-            <li><a href="../public/images/mud.jpg" rel="lightbox"><img alt="MUD PUDDLE" width="200" height="200" src="../public/images/mud.jpg" /></a></li>
-            <li><a href="../public/images/mud.jpg" rel="lightbox"><img alt="MUD PUDDLE" width="200" height="200" src="../public/images/mud.jpg" /></a></li>
-            <li class="last"><a href="../public/images/mud.jpg" rel="lightbox"><img alt="MUD PUDDLE" width="200" height="200" src="../public/images/mud.jpg" /></a></li>
+            <li><a href="../public/images/mud.jpg"><img alt="MUD PUDDLE" width="200" height="200" src="../public/images/mud.jpg" /></a></li>
+            <li><a href="../public/images/mud.jpg"><img alt="MUD PUDDLE" width="200" height="200" src="../public/images/mud.jpg" /></a></li>
+            <li class="last"><a href="../public/images/mud.jpg"><img alt="MUD PUDDLE" width="200" height="200" src="../public/images/mud.jpg" /></a></li>
+            <li><a href="../public/images/mud.jpg"><img alt="MUD PUDDLE" width="200" height="200" src="../public/images/mud.jpg" /></a></li>
+            <li><a href="../public/images/mud.jpg"><img alt="MUD PUDDLE" width="200" height="200" src="../public/images/mud.jpg" /></a></li>
+            <li class="last"><a href="../public/images/mud.jpg"><img alt="MUD PUDDLE" width="200" height="200" src="../public/images/mud.jpg" /></a></li>
         </ul>
     </li>
 </ul>
 <script>
     $(function(){
         //Lightbox
-        $('a[@rel*=lightbox]').lightBox();
-    }
+        $('.gallery a').lightBox();
+    });
 </script>
 
 

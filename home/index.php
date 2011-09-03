@@ -13,7 +13,10 @@
 </div>
 <script>
   $(function(){
-    $("#slides").slides();
+    $("#slides").slides({
+        generatePagination: true,
+        play: 4000
+    });
   });
 </script>
 <div class="landing">

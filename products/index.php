@@ -1,8 +1,4 @@
 <?php $token = $_SESSION['token'] = md5(uniqid(rand(), TRUE)); ?>
-<div class="intro introProducts ">
-    <h1>Podmladite vašu kožu!</h1>
-    <p>Alexandria je razvila jednostavan a vrlo efektivan način kućne nege za dobrobit svih tipova kože i uslova - sistem od 3 sinergetična proizvoda nazvan Hide and Seek™.</p>
-</div>
 <ul class="products">
     <li class="noTop">
         <img alt="SALTSPRING" width="200" height="200" src="../public/images/salt.jpg" />

@@ -1,9 +1,4 @@
 <?php $token = $_SESSION['token'] = md5(uniqid(rand(), TRUE)); ?>
-<div class="intro introProducts ">
-    <h1>Epilacija</h1>
-    <p>Nešto sasvim novo kod nas</p>
-</div>
-
 <!--Services -->
 <ul class="products">
     <li class="noTop">

@@ -1,8 +1,3 @@
-<div class="intro introProducts ">
-    <h1>Ukratko o nama</h1>
-    <p>kratak tekst</p>
-</div>
-
 <ul class="products">
     <li class="noTop">
         <h2>Ukratko o nama</h2>

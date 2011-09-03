@@ -46,8 +46,8 @@
         </span>
         <ul>
             <li><h4>Salon lepote - Lan Team</h4></li>
-            <li>ul. Dalmatinska 75, Beograd</li>
-            <li>tel: +381 (11) 3292 - 261</li>
+            <li>ul. Jelisavete Načić (bivša Pavla Papa) 1, Beograd</li>
+            <li>tel: +381 (11) 337 - 00 - 25</li>
             <li>mob: +381 (64) 1515 - 895</li>
         </ul>
     </div>

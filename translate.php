@@ -1,6 +1,6 @@
 <?php
 $_t = array(
-    'home.link'=>'Pocetna',
+    'home.link'=>'Početna',
     'products.link'=>'Proizvodi',
     'service.link'=>'Usluge',
     'aboutus.link'=>'O nama',

@@ -22,6 +22,7 @@
           })();
 
         </script>
+        <link href='http://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400italic,700,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     </head>
     <body>
     <div class="main">

@@ -41,7 +41,7 @@
                             </div>
                         </div>
                         <ul class="bottom">
-                            <li><a href="#">pocetna</a></li>
+                            <li><a href="#">Početna</a></li>
                             <li><a href="#">proizvodi</a>
                                 <ul>
                                     <li><a href="#">SALTSPRING&trade;</a></li>

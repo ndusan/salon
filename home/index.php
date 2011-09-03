@@ -21,7 +21,7 @@ HOME
 
 
 
-<? include_once __DIR__.'/../public/news.php';?>
+<? include_once 'public/news.php';?>
 <?php if(!empty($_news)):?>
 <!-- News -->
 <ul id="news">

@@ -8,6 +8,7 @@
                 <link href="/public/css/default.css" rel="stylesheet" type="text/css" />
                 <script type="text/javascript" src="/public/js/jquery-1.6.2.min.js"></script> 
                 <script type="text/javascript" src="/public/js/jquery.bxSlider.min.js"></script> 
+                <script type="text/javascript" src="/public/js/slides.min.jquery.js"></script> 
                 <script type="text/javascript" src="/public/js/default.js"></script>
                 <script type="text/javascript">
 

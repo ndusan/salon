@@ -26,14 +26,18 @@
                 <link href='http://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400italic,700,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
                     </head>
                     <body>
+                        
                         <div class="header">
-                            <?php include_once $params['folder'].'/header.php'; ?>
+                            <?php include_once $params['folder'] . '/header.php'; ?>
+                        </div>
+                        <a href="#" class="logo">
+                            <img src="../public/images/logo.png" width="160" height="45" alt="salon lepote" />
+                        </a>
+                        <div class="leaf">
+                            <img src="../public/images/sidebar_bg.png" alt="salon lepote" />
                         </div>
                         <div class="main">
                             <div class="sidebar">
-                                <a href="#" class="logo">
-                                    <img src="../public/images/logo.png" width="160" height="45" alt="salon lepote" />
-                                </a>
                                 <ul class="mainNav">
                                     <?php foreach ($routes as $route): ?>
                                         <li><a href="<?php echo $route['url']; ?>" <?php echo ($route['folder'] == $params['folder'] ? 'class="active"' : ''); ?>><?php echo $_t[$route['folder'] . '.link']; ?></a></li>
@@ -46,25 +50,25 @@
                         </div>
                         <ul class="bottom">
                             <?php foreach ($routes as $route): ?>
-                            <li>
-                                <a href="<?php echo $route['url']; ?>"><?php echo $_t[$route['folder'] . '.link']; ?></a>
-                                <?php if($route['folder'] == 'products'):?>
-                                <ul>
-                                    <li><a href="<?php echo $route['url']; ?>#SALTSPRING-PRODUCT">SALTSPRING™</a></li>
-                                    <li><a href="<?php echo $route['url']; ?>#MUD-PUDDLE-PRODUCT">MUD PUDDLE™</a></li>
-                                    <li><a href="<?php echo $route['url']; ?>#DERMAWEAR-PRODUCT">DERMAWEAR™</a></li>
-                                    <li><a href="<?php echo $route['url']; ?>#PHENOMEN-ALL-PRODUCT">PHENOMEN-ALL™</a></li>
-                                </ul>
-                                <?php elseif($route['folder'] == 'service'):?>
-                                <ul>
-                                    <li><a href="<?php echo $route['url']; ?>#EPILACIJA-TELA-USLUGA">epilacija tela</a></li>
-                                    <li><a href="<?php echo $route['url']; ?>#ŠEĆERNI-PROIZVOD-USLUGA">šećerni proizvod</a></li>
-                                    <li><a href="<?php echo $route['url']; ?>#ALEXANDRIA-STRUČNJACI-USLUGA">ALEXANDRIA stručnjaci</a></li>
-                                    <li><a href="<?php echo $route['url']; ?>#TRETMANI-USLUGA">tretmani</a></li>
-                                    <li><a href="<?php echo $route['url']; ?>#PRIPREMA-ZA-TRETMAN-USLUGA">priprema za tretman</a></li>
-                                </ul>
-                                <?php endif; ?>
-                            </li>
+                                <li>
+                                    <a href="<?php echo $route['url']; ?>"><?php echo $_t[$route['folder'] . '.link']; ?></a>
+                                    <?php if ($route['folder'] == 'products'): ?>
+                                        <ul>
+                                            <li><a href="<?php echo $route['url']; ?>#SALTSPRING-PRODUCT">SALTSPRING™</a></li>
+                                            <li><a href="<?php echo $route['url']; ?>#MUD-PUDDLE-PRODUCT">MUD PUDDLE™</a></li>
+                                            <li><a href="<?php echo $route['url']; ?>#DERMAWEAR-PRODUCT">DERMAWEAR™</a></li>
+                                            <li><a href="<?php echo $route['url']; ?>#PHENOMEN-ALL-PRODUCT">PHENOMEN-ALL™</a></li>
+                                        </ul>
+                                    <?php elseif ($route['folder'] == 'service'): ?>
+                                        <ul>
+                                            <li><a href="<?php echo $route['url']; ?>#EPILACIJA-TELA-USLUGA">epilacija tela</a></li>
+                                            <li><a href="<?php echo $route['url']; ?>#ŠEĆERNI-PROIZVOD-USLUGA">šećerni proizvod</a></li>
+                                            <li><a href="<?php echo $route['url']; ?>#ALEXANDRIA-STRUČNJACI-USLUGA">ALEXANDRIA stručnjaci</a></li>
+                                            <li><a href="<?php echo $route['url']; ?>#TRETMANI-USLUGA">tretmani</a></li>
+                                            <li><a href="<?php echo $route['url']; ?>#PRIPREMA-ZA-TRETMAN-USLUGA">priprema za tretman</a></li>
+                                        </ul>
+                                    <?php endif; ?>
+                                </li>
                             <?php endforeach; ?>
                         </ul>
                         <div class="footer">

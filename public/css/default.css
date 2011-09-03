@@ -39,17 +39,25 @@ input[type=submit]:hover {color:#f0397b; border-color:#C6C6C6; cursor:pointer;}
 /*SPRITE*/
 
 /*BUILD*/
-.introProducts {background:transparent url(../images/slide1.jpg) scroll no-repeat 0 0;}
+.introProducts {text-shadow: 1px 1px 1px #d89614; background:#fce43e url(../images/slide1.jpg) scroll no-repeat 0 0;}
 .introProducts h1 {font-size:40px; text-shadow: 1px 1px 1px #d89614;}
+.introServices {text-shadow: 1px 1px 1px #d89614; background:#feee39 url(../images/slide2.jpg) scroll no-repeat 0 0;}
+.introServices h1 {font-size:40px; text-shadow: 1px 1px 1px #d89614;}
+.introAbout {text-shadow: 1px 1px 1px #eb3464; background:#fc5db5 url(../images/slide3.jpg) scroll no-repeat 0 0; }
+.introAbout h1 {font-size:40px; text-shadow: 1px 1px 1px #eb3464;}
+.introContact {text-shadow: 1px 1px 1px #cdca31; background:#f4f45b url(../images/slide4.jpg) scroll no-repeat 0 0; }
+.introContact h1 {font-size:40px; text-shadow: 1px 1px 1px #cdca31;}
 
-.intro {padding:60px 30px 40px; color:#FFF; margin:0 0 30px;}
+
+.intro {padding:60px 0 40px 240px; color:#FFF; margin:0 0 30px;}
 .intro p {font-size:15px;}
 .outro {padding:30px 0px;}
 
 .main {width:960px; overflow:hidden; }
-.sidebar {float:left; width:200px; padding:170px 0 0; background:transparent url(../images/sidebar_bg.png) scroll no-repeat 0 0;}
+.sidebar {float:left; width:200px; padding:30px 0 0;}
 .content {float:right; width:720px; border-bottom:solid 1px #DDD; padding:0 0 50px; }
-.logo {float:right; margin:0 0 50px;}
+.logo {position:absolute; top:100px; left:40px;}
+.leaf {position:absolute; top:0; left:0;}
 .mainNav {overflow:hidden; float:right; clear:both;}
 .mainNav li {padding:10px 0; text-align:right;}
 .mainNav li a {font-family: 'Gentium Book Basic', serif; font-size:20px; color:#555; font-weight:bold; text-shadow: 1px 1px 1px #FFF;}

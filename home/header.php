@@ -17,8 +17,8 @@
 <script>
     $(function(){
         $("#slides").slides({
-            generatePagination: true,
-            play: 4000
+            effect: 'fade',
+            play: 5000
         });
     });
 </script>

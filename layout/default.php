@@ -6,10 +6,22 @@
         <meta name="keywords" content="salon lepote, epilacija, šećerna pena, Beograd, Jelisavete Načić (bivša Pavla Papa) broj 1, Lan Team, pedikir, manikir">
 
         <link href="/public/css/default.css" rel="stylesheet" type="text/css" />
-        <link href="/public/css/default.css" rel="stylesheet" type="text/css" />
         <script type="text/javascript" src="/public/js/jquery-1.6.2.min.js"></script> 
         <script type="text/javascript" src="/public/js/jquery.bxSlider.min.js"></script> 
         <script type="text/javascript" src="/public/js/default.js"></script>
+        <script type="text/javascript">
+
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-25499393-1']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+
+        </script>
     </head>
     <body>
     <div class="main">

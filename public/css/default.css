@@ -48,7 +48,7 @@ input[type=submit]:hover {color:#f0397b; border-color:#C6C6C6; cursor:pointer;}
 
 .main {width:960px; overflow:hidden; padding:0 0 50px;}
 .sidebar {float:left; width:200px; padding:170px 0 0; background:transparent url(../images/sidebar_bg.png) scroll no-repeat 0 0;}
-.content {float:right; width:720px; padding:170px 0 0;}
+.content {float:right; width:720px;}
 .logo {float:right; margin:0 0 50px;}
 .mainNav {overflow:hidden; float:right; clear:both;}
 .mainNav li {padding:10px 0; text-align:right;}

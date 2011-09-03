@@ -5,7 +5,7 @@
 </div>
 <ul class="products">
     <li class="noTop">
-        <img alt="Saltspring" width="200" height="200" src="../public/images/salt.jpg" />
+        <img alt="SALTSPRING" width="200" height="200" src="../public/images/salt.jpg" />
         <div class="desc">
             <h2>SALTSPRING™</h2>
             <span class="fbLike">
@@ -32,14 +32,17 @@
         </div>
     </li>
     <li>
-        <h2>MUD PUDDLE™</h2>
-        <span class="fbLike">
-            <!--Like-->
-            <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
-            <fb:like href="http://salonlepote.co.rs/proizvodi#MUD-PUDDLE" send="false" layout="button_count" show-faces="false" width="20" font="arial" colorscheme="light" />
-        </span>
-        <p>Mađarsko blato detoksikuje i revitalizuje kožu i odlično je za sve tipove kože i uslova, počev od tretmana akni do celulita. Ovo blato visokog kvaliteta sa širokom primenom kupuje se suvo i mesajući sa vodom prelazi u bogatu, glatku kremastu pastu.</p>
-        <a href="#" class="toggle-form" rel="MUD-PUDDLE">Pitajte i saznajte više</a>
+        <img alt="MUD PUDDLE" width="200" height="200" src="../public/images/mud.jpg" />
+        <div class="desc">
+            <h2>MUD PUDDLE™</h2>
+            <span class="fbLike">
+                <!--Like-->
+                <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
+                <fb:like href="http://salonlepote.co.rs/proizvodi#MUD-PUDDLE" send="false" layout="button_count" show-faces="false" width="20" font="arial" colorscheme="light" />
+            </span>
+            <p>Mađarsko blato detoksikuje i revitalizuje kožu i odlično je za sve tipove kože i uslova, počev od tretmana akni do celulita. Ovo blato visokog kvaliteta sa širokom primenom kupuje se suvo i mesajući sa vodom prelazi u bogatu, glatku kremastu pastu.</p>
+            <a href="#" class="toggle-form" rel="MUD-PUDDLE">Pitajte i saznajte više</a>
+        </div>
         <div class="moreInfo" id="MUD-PUDDLE" style="display: none;" title="hide">
             <form action="/proizvodi" medtod="post" id="form-MUD-PUDDLE">
                 <label for="name">Vaše ime:</label>
@@ -56,14 +59,17 @@
         </div>
     </li>
     <li>
-        <h2>DERMAWEAR™</h2>
-        <span class="fbLike">
-            <!--Like-->
-            <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
-            <fb:like href="http://salonlepote.co.rs/proizvodi#DERMAWEAR" send="false" layout="button_count" show-faces="false" width="20" font="arial" colorscheme="light" />
-        </span>
-        <p>Naša linija tonera i losiona koji deluju u duetu formulisani su i za lice i za telo, i rade u tandemu kako bi hranili kožu, umirili i negovali. Sa najčistijim, prirodnim sastojcima i esencijalnim uljima, ovaj dnevni okrepljujući tretman može se koristiti ujutru i uveče za preplanulu, hidriranu i sjajnu kožu.</p>
-        <a href="#" class="toggle-form" rel="DERMAWEAR">Pitajte i saznajte više</a>
+        <img alt="DERMAWEAR" width="200" height="200" src="../public/images/dermawear.jpg" />
+        <div class="desc">
+            <h2>DERMAWEAR™</h2>
+            <span class="fbLike">
+                <!--Like-->
+                <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
+                <fb:like href="http://salonlepote.co.rs/proizvodi#DERMAWEAR" send="false" layout="button_count" show-faces="false" width="20" font="arial" colorscheme="light" />
+            </span>
+            <p>Naša linija tonera i losiona koji deluju u duetu formulisani su i za lice i za telo, i rade u tandemu kako bi hranili kožu, umirili i negovali. Sa najčistijim, prirodnim sastojcima i esencijalnim uljima, ovaj dnevni okrepljujući tretman može se koristiti ujutru i uveče za preplanulu, hidriranu i sjajnu kožu.</p>
+            <a href="#" class="toggle-form" rel="DERMAWEAR">Pitajte i saznajte više</a>
+        </div>
         <div class="moreInfo" id="DERMAWEAR" style="display: none;" title="hide">
             <form action="/proizvodi" medtod="post" id="form-DERMAWEAR">
                 <label for="name">Vaše ime:</label>
@@ -80,16 +86,17 @@
         </div>
     </li>
     <li class="noBot">
-        <h2>PHENOMEN-ALL™</h2>
-        <span class="fbLike">
-            <!--Like-->
-            <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
-            <fb:like href="http://salonlepote.co.rs/proizvodi#PHENOMEN-ALL" send="false" layout="button_count" show-faces="false" width="20" font="arial" colorscheme="light" />
-        </span>
-        <p>Krema za sve - urasle dlake, problematičnu kožu, zadebljanja i žuljeve, grubu kožu na laktovima i kolenima. Ova jedinstvena kombinacija sjajnih, kvalitetnih esencijalnih ulja omekšava gornje i srednje slojeve kože omogucavajući brzo uklanjanje mrtvih ćelija. Ovo je izuzetno važno u tretiranju uraslih dlaka. Urasla dlaka se pojavljuje ukoliko nova dlaka nije dovoljno jaka da se probije kroz sloj mrtvih ćelija kože iznad folikula. Phenomen-ALL™ održava vašu kožu mekanom i pomaže u sprečavanju urastanja dlaka. Vaša koža će izgledati sveže i podmlađeno.</p>
-
-        <a href="#" class="toggle-form" rel="PHENOMEN-ALL">Pitajte i saznajte više</a>
-
+        <img alt="PHENOMEN-ALL" width="200" height="200" src="../public/images/phenomen-all.jpg" />
+        <div class="desc">
+            <h2>PHENOMEN-ALL™</h2>
+            <span class="fbLike">
+                <!--Like-->
+                <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
+                <fb:like href="http://salonlepote.co.rs/proizvodi#PHENOMEN-ALL" send="false" layout="button_count" show-faces="false" width="20" font="arial" colorscheme="light" />
+            </span>
+            <p>Krema za sve - urasle dlake, problematičnu kožu, zadebljanja i žuljeve, grubu kožu na laktovima i kolenima. Ova jedinstvena kombinacija sjajnih, kvalitetnih esencijalnih ulja omekšava gornje i srednje slojeve kože omogucavajući brzo uklanjanje mrtvih ćelija. Ovo je izuzetno važno u tretiranju uraslih dlaka. Urasla dlaka se pojavljuje ukoliko nova dlaka nije dovoljno jaka da se probije kroz sloj mrtvih ćelija kože iznad folikula. Phenomen-ALL™ održava vašu kožu mekanom i pomaže u sprečavanju urastanja dlaka. Vaša koža će izgledati sveže i podmlađeno.</p>
+            <a href="#" class="toggle-form" rel="PHENOMEN-ALL">Pitajte i saznajte više</a>
+        </div>
         <div class="moreInfo" id="PHENOMEN-ALL" style="display: none;" title="hide">
             <form action="/proizvodi" medtod="post" id="form-PHENOMEN-ALL">
                 <label for="name">Vaše ime:</label>

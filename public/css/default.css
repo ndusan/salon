@@ -16,7 +16,7 @@ abbr,acronym { border:0;}
 
 h1 {font-size:30px;}
 h2 {font-size:18px;}
-h3 {font-size:16px;}
+h3 {font-size:14px;}
 h4 {font-size:14px;}
 
 /*MAIN*/
@@ -29,7 +29,13 @@ label {padding:2px 0; display:block;}
 .cl {clear:both; line-height:0;}
 .fl {float:left;}
 .fr {float:right;}
+.noTop {border-top:none !important;}
+.noBot {border-bottom:none !important;}
 
+input[type=text], textarea {padding:10px; background-color:#FDFDFD; border: 1px solid #D6D6D6; font-family: Arial,Helvetica,sans-serif; font-size:13px; width: 300px; box-shadow: 1px 1px 2px rgba(200, 200, 200, 0.3) inset;}
+input[type=text]:focus, textarea:focus {background-color:#FFF;}
+input[type=submit] {padding:10px 20px; margin:10px 0 0; background-color:#FDFDFD; border: 1px solid #D6D6D6; font-family: Arial,Helvetica,sans-serif; font-size:13px; box-shadow: 1px 1px 2px rgba(200, 200, 200, 0.3);}
+input[type=submit]:hover {color:#f0397b; border-color:#C6C6C6; cursor:pointer;}
 /*SPRITE*/
 
 /*BUILD*/
@@ -43,3 +49,10 @@ label {padding:2px 0; display:block;}
 .mainNav li a:hover {color:#f0397b; text-decoration:none;}
 .mainNav .active, .mainNav .active:hover  {color:#f0397b;}
 .footer {width:720px; margin:0 0 0 240px; padding:10px 0; overflow:hidden; border-top:solid 1px #f0397b;}
+
+.products {overflow:hidden;}
+.products li {padding:20px 0; border-bottom:solid 1px #d0df40; border-top:solid 1px #FFF;}
+.products p {padding:10px 0;}
+.products .moreInfo {padding:0 20px 10px; position:relative;}
+.products .toggle-form {text-align:center; display:block; padding:5px;}
+

@@ -19,7 +19,7 @@
             </a>
             <ul class="mainNav">
                 <?php foreach ($routes as $route): ?>
-                    <li><a href="<?php echo $route['url']; ?>"><?php echo $_t[$route['folder'] . '.link']; ?></a></li>
+                    <li><a href="<?php echo $route['url']; ?>" <?php echo ($route['folder'] == $params['folder'] ? 'class="active"' : ''); ?>><?php echo $_t[$route['folder'] . '.link']; ?></a></li>
                 <?php endforeach; ?>
             </ul>
         </div>

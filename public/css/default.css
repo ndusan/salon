@@ -46,9 +46,9 @@ input[type=submit]:hover {color:#f0397b; border-color:#C6C6C6; cursor:pointer;}
 .intro p {font-size:14px;}
 .outro {padding:30px 0px;}
 
-.main {width:960px; overflow:hidden; padding:0 0 50px;}
+.main {width:960px; overflow:hidden; }
 .sidebar {float:left; width:200px; padding:170px 0 0; background:transparent url(../images/sidebar_bg.png) scroll no-repeat 0 0;}
-.content {float:right; width:720px;}
+.content {float:right; width:720px; border-bottom:solid 1px #DDD; padding:0 0 50px; }
 .logo {float:right; margin:0 0 50px;}
 .mainNav {overflow:hidden; float:right; clear:both;}
 .mainNav li {padding:10px 0; text-align:right;}
@@ -56,9 +56,12 @@ input[type=submit]:hover {color:#f0397b; border-color:#C6C6C6; cursor:pointer;}
 .mainNav li a:hover {color:#f0397b; text-decoration:none;}
 .mainNav .active, .mainNav .active:hover  {color:#f0397b;}
 .footer {width:720px; margin:0 0 0 240px; padding:10px 0; overflow:hidden; border-top:solid 1px #f0397b;}
+.bottom {width:720px; margin:0 0 0 240px; padding:20px 0; border-top:solid 1px #FFF; overflow:hidden;}
+.bottom > li {float:left; width:144px;}
+.bottom ul {padding:20px 0 0;}
 
 .products h2 {display:inline;}
-.products li {padding:20px 0; border-bottom:solid 1px #DDD; border-top:solid 1px #FFF;position:relative; overflow:hidden;}
+.products li {padding:20px 0; border-bottom:solid 1px #DDD; border-top:solid 1px #FFF; position:relative; overflow:hidden;}
 .products p {padding:10px 0;}
 .products img {float:right; border:solid 1px #DDD;}
 .products .desc {margin:0 230px 0 0;}

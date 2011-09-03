@@ -1,20 +1,13 @@
 <div class="banner" id="slides">
   <div class="slides_container">
     <div>
-      <h1>Slide 1</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <img alt="SALTSPRING" width="720" height="300" src="../public/images/slide1.jpg" />
     </div>
     <div>
-      <h1>Slide 2</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <img alt="SALTSPRING" width="720" height="300" src="../public/images/slide2.jpg" />
     </div>
     <div>
-      <h1>Slide 3</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    </div>
-    <div>
-      <h1>Slide 4</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <img alt="SALTSPRING" width="720" height="300" src="../public/images/slide1.jpg" />
     </div>
   </div>
 </div>

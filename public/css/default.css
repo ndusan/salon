@@ -83,12 +83,12 @@ input[type=submit]:hover {color:#f0397b; border-color:#C6C6C6; cursor:pointer;}
 .error {background-color:red;}
 
 .slides_container {
-    width:470px;
-    height:170px;
+    width:720px;
+    height:300px;
   }
   .slides_container div {
-    width:470px;
-    height:170px;
+    width:720px;
+    height:300px;
     display:block;
   }
 

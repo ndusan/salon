@@ -14,8 +14,8 @@
 <script>
   $(function(){
     $("#slides").slides({
-        generatePagination: true,
-        play: 4000
+        effect: 'fade',
+        play: 5000
     });
   });
 </script>
@@ -62,7 +62,7 @@
         <?php endif; ?>
     </div>
     <div class="homeSocial">
-        <iframe src="http://www.facebook.com/plugins/facepile.php?app_id=118374028264322" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:400px; height: 300px;" allowTransparency="true"></iframe>
+        <iframe src="http://www.facebook.com/plugins/facepile.php?app_id=109028209203479" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:400px; height: 300px;" allowTransparency="true"></iframe>
     </div>
 </div>
 

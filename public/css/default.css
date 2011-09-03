@@ -10,17 +10,17 @@ em,strong{}
 ol,ul {list-style:none;}
 caption {text-align:center;}
 th {text-align:left;}
-h1,h2,h3,h4,h5,h6 {margin:0; padding:0; line-height:150%; text-shadow: 1px 1px 1px #FFF;}
+h1,h2,h3,h4,h5,h6 {margin:0; padding:0; line-height:150%; text-shadow: 1px 1px 1px #FFF; font-family: 'Gentium Book Basic', serif;}
 q:before,q:after {content:'';}
 abbr,acronym { border:0;}
 
 h1 {font-size:30px;}
-h2 {font-size:18px;}
-h3 {font-size:14px;}
-h4 {font-size:14px;}
+h2 {font-size:20px;}
+h3 {font-size:18px;}
+h4 {font-size:16px;}
 
 /*MAIN*/
-body {font-size:13px; color:#444; font-family:arial,sans-serif; background:#f8f8f8 url(../images/body_bg.jpg) scroll no-repeat 0 0;}
+body {font-size:13px; color:#555; font-family:arial,sans-serif; background:#f8f8f8 url(../images/body_bg.jpg) scroll no-repeat 0 0;}
 a {color:#f0397b; outline:none; text-decoration:none;}
 a:hover {text-decoration:underline;}
 img {border: none; vertical-align: middle;}
@@ -40,10 +40,11 @@ input[type=submit]:hover {color:#f0397b; border-color:#C6C6C6; cursor:pointer;}
 
 /*BUILD*/
 .introProducts {background-color:#fbb835;}
+.introProducts h1 {font-size:40px; text-shadow: 1px 1px 1px #d89614;}
 
-.intro {padding:30px; color:#FFF; margin:0 0 30px;}
-.intro h2 {font-size:30px; text-shadow: 1px 1px 1px #d89614;}
-.outro {padding:30px; color:#FFF; margin:0 0 30px;}
+.intro {padding:30px 30px 40px; color:#FFF; margin:0 0 30px;}
+.intro p {font-size:14px;}
+.outro {padding:30px 0px;}
 
 .main {width:960px; overflow:hidden; padding:0 0 50px;}
 .sidebar {float:left; width:200px; padding:170px 0 0; background:transparent url(../images/sidebar_bg.png) scroll no-repeat 0 0;}
@@ -51,7 +52,7 @@ input[type=submit]:hover {color:#f0397b; border-color:#C6C6C6; cursor:pointer;}
 .logo {float:right; margin:0 0 50px;}
 .mainNav {overflow:hidden; float:right; clear:both;}
 .mainNav li {padding:10px 0; text-align:right;}
-.mainNav li a {font-size:16px; color:#444; font-weight:bold; text-shadow: 1px 1px 1px #FFF;}
+.mainNav li a {font-family: 'Gentium Book Basic', serif; font-size:20px; color:#444; font-weight:bold; text-shadow: 1px 1px 1px #FFF;}
 .mainNav li a:hover {color:#f0397b; text-decoration:none;}
 .mainNav .active, .mainNav .active:hover  {color:#f0397b;}
 .footer {width:720px; margin:0 0 0 240px; padding:10px 0; overflow:hidden; border-top:solid 1px #f0397b;}

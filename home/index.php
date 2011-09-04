@@ -41,7 +41,7 @@
         <?php endif; ?>
     </div>
     <div class="homeSocial">
-        <iframe src="http://www.facebook.com/plugins/facepile.php?app_id=109028209203479" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:400px; height: 300px;" allowTransparency="true"></iframe>
+        <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FLan-Team%2F118374028264322&amp;width=340&amp;colorscheme=light&amp;show_faces=false&amp;border_color&amp;stream=true&amp;header=false&amp;height=380" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:400px; height:395px;" allowTransparency="true"></iframe>
     </div>
 </div>
 

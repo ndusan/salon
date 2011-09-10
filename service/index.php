@@ -20,7 +20,7 @@
             <a href="#" class="toggle-form" rel="EPILACIJA">Zatvorite formu za pitajte</a>
         </div>
     </li>
-    <li class="noTop">
+    <li>
         <h2>Jedinstven šećerni proizvod<a name="ŠEĆERNI-PROIZVOD-USLUGA"></a></h2>
         <p>Šećerna pasta, koja se koristi, je smeša prirodnih sastojaka koji nemaju nikakve hemijske dodatke tako da ne postoji strah od bilo kakvih štetnih dejstava. Upotreba ovog jedinstvenog proizvoda će takode ukloniti mrtve ćelije kože ostavljajući kožu mekanom, svilenkastom i zdravom.</p>
         <a href="#" class="toggle-form" rel="SECERNI-PROIZVOD">Pitajte i saznajte više</a>
@@ -39,7 +39,7 @@
             <a href="#" class="toggle-form" rel="SECERNI-PROIZVOD">Zatvorite formu za pitajte</a>
         </div>
     </li>
-    <li class="noTop">
+    <li>
         <h2>ALEXANDRIA stručnjaci<a name="ALEXANDRIA-STRUČNJACI-USLUGA"></a></h2>
         <p>Alexandria stručnjaci imaju sertifikate, profesionalno su trenirani i obrazovani. Posvećeni su visokom standardu usluge. Priprema vaše kože za tretmane Alexandria Professional Body Sugaring spada u vašu redovnu rutinu ulepšavanja.</p>
         <a href="#" class="toggle-form" rel="ALEXANDRIA">Pitajte i saznajte više</a>
@@ -58,7 +58,7 @@
             <a href="#" class="toggle-form" rel="ALEXANDRIA">Zatvorite formu za pitajte</a>
         </div>
     </li>
-    <li class="noTop">
+    <li>
         <h2>Zakazivanje vaših tretmana<a name="TRETMANI-USLUGA"></a></h2>
         <p>Vaš Alexandria Professional stručnjak će moći najbolje da odredi i napravi raspored vaših termina jer će vremenom dobro upoznati način rasta vaših dlaka. Dlaka ne mora preći 0,3 mm da bi se uklonila.</p>
         <a href="#" class="toggle-form" rel="TRETMANI">Pitajte i saznajte više</a>

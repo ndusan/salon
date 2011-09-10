@@ -1,5 +1,5 @@
 <div class="landing">
-    <h1>Welcome to Lan Team</h1>
+    <h1>Salon lepote Lan Team</h1>
     <span class="fbLike">
         <!-- Like button -->
         <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
@@ -9,20 +9,17 @@
         <!-- Send to friend button -->
         <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:send href="http://salonlepote.co.rs" font="arial"></fb:send>
     </span>
-    <h2>BEAUTY SALON</h2>
+    <h2>Dobrodošli</h2>
     <p>
-        Kako ćete prepoznati Alexandria proizvode ( tretman ) i Alexandria stručnjaka?
+        Salon lepote Lan Team se nalazi u ulici Jelisavete Načić (bivša Pavla Papa) br. 1, u neposrednoj blizini pijace Bajloni.
     </p>
     <p>
-        Alexandria proizvodi se uvoze direktno iz Kanade, nalaze se u plavo belim kutijama i flašicama, pune se fabrički i prošli su visoke sanitarne kontrole.
-        Sertifikovani Alexandria stručnjaci poseduju originalne diplome i Alexandria postere koji su nalaze na vidno postavljenim mestima.
+        U našem salonu koriste se najkvalitetniji kozmetički preparati za negu lica i tela poznate kanadske kozmetičke kuće Alexandria professional™.
     </p>
+    <br/>
     <p>
-        Koža se obavezno prvo očisti Alexandria preseptom, nakon čega se stavlja tonik za proširenje pora i Alexandria specijalni puder.
-        Tretman se radi isključivo rukavicama. Šećerna pasta se zagreva jedino u grejačima, gde se pasta zagreje do temperature tela ( 37 stepeni ).
-        Nakon tretmana koža se smiruje Alexandria restorom i tonikom. 
+        Posetite nas i uverite se i sami u kvalitet i profesionalizam našeg osoblja, očekujemo vas.
     </p>
-
 </div>
 <div class="home">
     <div class="homeNews">
@@ -41,7 +38,7 @@
         <?php endif; ?>
     </div>
     <div class="homeSocial">
-        <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FLan-Team%2F118374028264322&amp;width=340&amp;colorscheme=light&amp;show_faces=false&amp;border_color&amp;stream=true&amp;header=false&amp;height=380" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:400px; height:395px;" allowTransparency="true"></iframe>
+        <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FLan-Team%2F118374028264322&amp;width=340&amp;colorscheme=light&amp;show_faces=false&amp;border_color&amp;stream=true&amp;header=false&amp;height=300" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:400px; height:395px;" allowTransparency="true"></iframe>
     </div>
 </div>
 

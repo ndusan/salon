@@ -1,4 +1,4 @@
 <div class="intro introProducts ">
-    <h1>Podmladite vašu kožu!</h1>
-    <p>Alexandria je razvila jednostavan a vrlo efektivan način kućne nege za dobrobit svih<br/> tipova kože i uslova - sistem od 3 sinergetična proizvoda nazvan Hide and Seek™.</p>
+    <h1>Sve što možete da izgubite su dlake!</h1>
+    <p>Podmladite vašu kožu koristeći najsavremenije proizvode iz kolekcije kozmetičke kuće Alexandria professional™</p>
 </div>

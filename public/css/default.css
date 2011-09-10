@@ -55,7 +55,7 @@ input[type=submit]:hover {color:#f0397b; border-color:#C6C6C6; cursor:pointer;}
 
 .main {width:960px; overflow:hidden; }
 .sidebar {float:left; width:200px; padding:30px 0 0;}
-.content {float:right; width:720px; border-bottom:solid 1px #DDD; padding:0 0 50px; }
+.content {float:right; width:720px; border-bottom:solid 1px #DDD; padding:0 0 90px; background:transparent url(../images/alexandria.png) scroll no-repeat 50% 100%; }
 .logo {position:absolute; top:100px; left:40px;}
 .leaf {position:absolute; top:0; left:0;}
 .mainNav {overflow:hidden; float:right; clear:both;}

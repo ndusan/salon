@@ -2,6 +2,7 @@
 <html lang="en-US" xml:lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="shortcut icon" href="/public/images/favicon.ico" type="image/x-icon" />
         <meta name="description" content="Salon lepote u ulici Jelisavete Načić (bivša Pavla Papa) broj 1, Beograd. Epilacija šećernom penom, nešto sasvim novo kod nas. Alexandria Professional.">
             <meta name="keywords" content="salon lepote, epilacija, šećerna pena, Beograd, Jelisavete Načić (bivša Pavla Papa) broj 1, Lan Team, pedikir, manikir">
                 <title>Salon lepote - Lan Team<?php echo $params['folder'] ? ' | ' . $_t[$route['folder'] . '.link'] : ''; ?></title>

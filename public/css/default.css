@@ -76,6 +76,7 @@ input[type=submit]:hover {color:#f0397b; border-color:#C6C6C6; cursor:pointer;}
 .homeNews {float:left; width:350px;}
 .homeSocial {float:right; width:350px;}
 
+.products {padding:15px 0;}
 .products h2 {display:inline;}
 .products > li {padding:20px 0; border-bottom:solid 1px #DDD; border-top:solid 1px #FFF; position:relative; overflow:hidden;}
 .products p {padding:10px 0;}
@@ -104,5 +105,7 @@ input[type=submit]:hover {color:#f0397b; border-color:#C6C6C6; cursor:pointer;}
 .gallery {overflow:hidden;}
 .gallery li {float:left; margin:28px 56px 28px 0;}
 .gallery .last {margin-right:0;}
+
+.contactPage {padding:35px 0;}
 
 .bx-window{height: 165px!important;}

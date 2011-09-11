@@ -1,4 +1,4 @@
-<div class="home">
+<div class="home contactPage">
         <div class="homeNews">
                 <h2>Salon lepote Lan Team</h2>
         <p>Kontakt osoba: Zorka Jonić</p>

@@ -93,9 +93,9 @@ input[type=submit]:hover {color:#f0397b; border-color:#C6C6C6; cursor:pointer;}
 .error {background-color:red;}
 
 .slides_container {height:250px; width:100%;}
-.slides_container h1 {color:#FFF; text-shadow: 1px 1px 1px #999; font-size:40px; display:inline;}
+.slides_container h1 {color:#FFF; text-shadow: 1px 1px 1px #999; font-size:40px; line-height:45px; display:inline;}
 .slides_container .oneSlide {height:250px; width:100%; display:block; padding:0 0 0 240px;}
-.slides_container .text {float:left; width:420px; padding:50px 0 0;}
+.slides_container .text {float:left; width:420px; padding:95px 0 0;}
 
 .pagination {width:70px; margin:10px auto 0;}
 .pagination li {float:left; margin:0 1px;}

@@ -32,7 +32,7 @@
                         <div class="header">
                             <?php include_once $params['folder'] . '/header.php'; ?>
                         </div>
-                        <a href="#" class="logo">
+                        <a href="/" class="logo">
                             <img src="../public/images/logo.png" width="160" height="45" alt="salon lepote" />
                         </a>
                         <div class="leaf">

@@ -12,6 +12,9 @@
                 <script type="text/javascript" src="/public/js/jquery.bxSlider.min.js"></script> 
                 <script type="text/javascript" src="/public/js/slides.min.jquery.js"></script>
                 <script type="text/javascript" src="/public/js/jquery.lightbox-0.5.min.js"></script>
+                <script type="text/javascript">
+                    var translate = <?=json_encode($_t);?>;
+                </script>
                 <script type="text/javascript" src="/public/js/default.js"></script>
                 <script type="text/javascript">
 

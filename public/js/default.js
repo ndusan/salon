@@ -22,6 +22,7 @@ $(document).ready(function(){
            type: "POST",
            url:  $('#'+formName).attr('action'),
            data: $('#'+formName).serialize(),
+           dataType: 'json',
            success: function(data){
              var resClass='error';
              if(data.error != true){
@@ -34,7 +35,7 @@ $(document).ready(function(){
                  resClass = 'error';
              }
              //Show message
-             $('#'+formName).append('<div class="message '+resClass+'">'+data.msg+'</div>');
+             $('#'+formName).append('<div class="message '+resClass+'">'+translate[data.msg]+'</div>');
              setTimeout(function () {
                 $('.message').fadeOut(function(){
                     $(this).remove();

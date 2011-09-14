@@ -4,5 +4,6 @@ $_t = array(
     'products.link'=>'Proizvodi',
     'service.link'=>'Usluge',
     'aboutus.link'=>'O nama',
-    'contact.link'=>'Kontakt'
+    'contact.link'=>'Kontakt',
+    'required_fields'=>'Popunite sva polja'
 );

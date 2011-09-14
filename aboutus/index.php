@@ -14,12 +14,15 @@
     <li class="noBot">
         
         <ul class="gallery">
-            <li><a href="../public/images/mud.jpg"><img alt="MUD PUDDLE" width="200" height="200" src="../public/images/mud.jpg" /></a></li>
-            <li><a href="../public/images/mud.jpg"><img alt="MUD PUDDLE" width="200" height="200" src="../public/images/mud.jpg" /></a></li>
-            <li class="last"><a href="../public/images/mud.jpg"><img alt="MUD PUDDLE" width="200" height="200" src="../public/images/mud.jpg" /></a></li>
-            <li><a href="../public/images/mud.jpg"><img alt="MUD PUDDLE" width="200" height="200" src="../public/images/mud.jpg" /></a></li>
-            <li><a href="../public/images/mud.jpg"><img alt="MUD PUDDLE" width="200" height="200" src="../public/images/mud.jpg" /></a></li>
-            <li class="last"><a href="../public/images/mud.jpg"><img alt="MUD PUDDLE" width="200" height="200" src="../public/images/mud.jpg" /></a></li>
+            <li><a href="../public/images/salon/img_6952.jpg"><img alt="salon lepote slike" width="200" height="180" src="../public/images/salon/img_6952.jpg" /></a></li>
+            <li><a href="../public/images/salon/img_6957.jpg"><img alt="salon lepote slike" width="200" height="180" src="../public/images/salon/img_6957.jpg" /></a></li>
+            <li class="last"><a href="../public/images/salon/img_6975.jpg"><img alt="salon lepote slike" width="200" height="180" src="../public/images/salon/img_6975.jpg" /></a></li>
+            <li><a href="../public/images/salon/img_6977.jpg"><img alt="salon lepote slike" width="200" height="180" src="../public/images/salon/img_6977.jpg" /></a></li>
+            <li><a href="../public/images/salon/img_6978.jpg"><img alt="salon lepote slike" width="200" height="180" src="../public/images/salon/img_6978.jpg" /></a></li>
+            <li class="last"><a href="../public/images/salon/img_6984.jpg"><img alt="salon lepote slike" width="200" height="180" src="../public/images/salon/img_6984.jpg" /></a></li>
+            <li><a href="../public/images/salon/img_6985.jpg"><img alt="salon lepote slike" width="200" height="180" src="../public/images/salon/img_6985.jpg" /></a></li>
+            <li><a href="../public/images/salon/img_6991.jpg"><img alt="salon lepote slike" width="200" height="180" src="../public/images/salon/img_6991.jpg" /></a></li>
+            <li class="last"><a href="../public/images/salon/img_6995.jpg"><img alt="salon lepote slike" width="200" height="180" src="../public/images/salon/img_6995.jpg" /></a></li>
         </ul>
     </li>
 </ul>

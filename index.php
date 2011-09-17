@@ -1,5 +1,4 @@
 <?php
-
 $url = $_SERVER['REQUEST_URI'];
 //Remove / at start
 $url = substr_replace($url, '', 0, 1);

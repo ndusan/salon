@@ -25,7 +25,7 @@ $(document).ready(function(){
            dataType: 'json',
            success: function(data){
              var resClass='error';
-             if(data.error != true){
+             if(data.error == false){
                  //Reset fields
                  $('#'+formName).find('input[type="text"]').val('');
                  $('#'+formName).find('textarea').val(''); 

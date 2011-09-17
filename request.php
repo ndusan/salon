@@ -23,38 +23,26 @@ if(!empty($_POST)){
     if(!empty($_POST['token']) && !empty($_SESSION['token']) && $_SESSION['token'] === $_POST['token']){
         
         
-        require_once __DIR__ .'/config/config.php';
+        include_once $_SERVER['DOCUMENT_ROOT'].'/config/config.php';
         //Include swiftmailer
-        require_once __DIR__ .'/lib/swiftmailer/swift_required.php';
-        
-        //Create the Transport
-        $transport = Swift_SmtpTransport::newInstance('smtp.gmail.com')
-          ->setPort(465)
-          ->setEncryption('ssl')
-          ->setUsername(SWT_USERNAME)
-          ->setPassword(SWT_PASSWORD);
-        
-        //Create the Mailer using your created Transport
-        $mailer = Swift_Mailer::newInstance($transport);
+        include_once $_SERVER['DOCUMENT_ROOT'].'/lib/swiftmailer/swift_required.php';
 
-        //To
-        $to = (isset($_POST['to']) ? trim($_POST['to']) : SWT_TO);
+        //Create the Transport
+        try{
         
-        //Subject
-        $subject = (isset($_POST['subject']) ? trim($_POST['subject']) : SWT_SUBJECT);
+            //Subject
+            $subject = (isset($_POST['subject']) ? trim($_POST['subject']) : SUBJECT);
         
-        //Create body
-        $body = "";
-        
-        
-        $message = Swift_Message::newInstance()
-          ->setSubject($subject)
-          ->setFrom(array(SWT_FROM => 'Salon lepote LanTeam'))
-          ->setTo(array($to))
-          ->setBody($body, 'text/html');
-        
-        $numSent = $mailer->send($message);
-        
+            //Create body
+            $body = "Ime i prezime: ". $_POST['name']."\n";
+            $body.= "El.adresa: ". $_POST['email']."\n";
+            $body.= "Pitanje: ". $_POST['question']."\n";
+            
+            mail(TO, $subject, $body, "From: ".FROM);
+            
+        }catch(Exception $e){
+            echo $e->getMessage();
+        }
         $output = array('error'=>false, 'msg'=>'email_sent');
     }else{
         $output = array('error'=>true, 'msg'=>'token_missing');

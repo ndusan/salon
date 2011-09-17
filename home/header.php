@@ -7,20 +7,20 @@
             <img src="../public/images/epilacija.png" /></img>
 
         </div>
-        <div class="oneSlide" style="background:#feee39 url(../public/images/slide2.jpg) scroll no-repeat 0 0; ">
+        <div class="oneSlide" style="background:#feee39 url(../public/images/slide2.jpg) scroll no-repeat 0 0; display:none;">
             <div class="text">
                 <h1>Estetski i hirurški pedikir</h1>
             </div>
             <img src="../public/images/pedikir.png" />
 
         </div>
-        <div class="oneSlide" style="background:#fc5db5 url(../public/images/slide3.jpg) scroll no-repeat 0 0; ">
+        <div class="oneSlide" style="background:#fc5db5 url(../public/images/slide3.jpg) scroll no-repeat 0 0; display:none;">
             <div class="text">
                 <h1>Manikir i izlivanje noktiju</h1>
             </div>
             <img src="../public/images/manikir.png" />
         </div>
-        <div class="oneSlide" style="background:#f4f45b url(../public/images/slide4.jpg) scroll no-repeat 0 0; ">
+        <div class="oneSlide" style="background:#f4f45b url(../public/images/slide4.jpg) scroll no-repeat 0 0; display:none;">
             <div class="text">
                 <h1>Tretmani lica</h1>
             </div>
@@ -30,7 +30,7 @@
 </div>
 <script>
     $(function(){
-        $("#slides").slides({
+        $("#slides").show().slides({
             effect: 'fade',
             play: 5000
         });
